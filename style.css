@@ -57,10 +57,13 @@ nav {
     background-color: #d8c3a5;
     display: flex;
     border: 2px solid blueviolet;
+    line-height: 1.7;
+    padding: 50px 15% 70px;
+    gap: 100px;
 }
 
 .hero-box1 {
-    margin: 2rem 4rem;
+    /* margin: 2rem 4rem; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -68,22 +71,46 @@ nav {
     padding: 3rem;
     border: 2px solid none;
     background-color: #eae7dc;
+    width: 40%;
 }
 .hero-box2 {
-    margin: 2rem 3rem;
+    /* margin: 2rem 3rem; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
+    padding: 2rem;
     border: 2px solid none;
     background-color: #eae7dc;
     border-radius: 30px;
+    width: 20%;
 }
 
+/* button styling for hero ...we need to have consistent buttons 
+across the page */
 .hero-box1 > button,
 .hero-box2 > button {
     background-color: #e85a4f;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    color: #eae7dc;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-box1 > button,
+.hero-box2 > button:hover {
+    background-color: #e98074;
+}
+
+.hero-box1 > button,
+.hero-box2 > button:visited {
+    background-color: #e98074;
 }
 
 /* companies styling */
@@ -327,34 +354,40 @@ footer a {
     display: flex;
     justify-content: space-around;
 }
-/* app features  styling but  the name will change*/
-.app-feature-section1 {
-    padding-left: 5rem;
+
+/* changed name of app features */
+.trust-ingredients-section {
+    display: flex;
     background-color: #e98074;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    line-height: 1.6;
 }
+.ingredients-head {
+    text-align: center;
+}
+
+.ingredients-feature-list {
+    display: flex;
+    padding-top: 3rem;
+
+    gap: 32px;
+}
+
+.ingredients-feature-list > li {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+
 .img-feature {
     border-radius: 50%;
     object-fit: cover;
     width: 64px;
     height: 64px;
-}
-
-.app-feature-list {
-    display: flex;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
-
-.app-feature-list li {
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-head {
-    padding-left: 8rem;
-    /* align-items: center;
-   flex-direction: column; */
 }
 
 /* color palette: 
