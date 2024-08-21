@@ -1,3 +1,5 @@
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,4 +25,19 @@ nav {
 }
 .nav-right a {
     list-style: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  font-size: 10px;
+  color: black;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
 }
