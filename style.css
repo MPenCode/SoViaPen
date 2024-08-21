@@ -9,8 +9,21 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   border: solid red;
+  font-size: 1rem;
+}
+.nav-left {
+  border: solid green;
+  padding: 0.5rem;
+  background-color: antiquewhite;
+}
+.nav-left a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left:hover {
+  background-color: aliceblue;
 }
 .nav-right {
   display: flex;
@@ -18,13 +31,20 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   border: orange solid;
+  background-color: antiquewhite;
 }
 .nav-right li {
-  padding: 1rem;
+  padding: 0.5rem;
   border: solid green;
 }
 .nav-right a {
   list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+.nav-right a:hover {
+  background-color: aliceblue;
 }
 
 .hero {
