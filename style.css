@@ -44,7 +44,6 @@ nav {
     height: auto;
     width: auto;
 }
-=======
 
 footer {
   text-align: center;
@@ -61,3 +60,30 @@ footer a {
   justify-content: space-around;
 }
 
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.video-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
