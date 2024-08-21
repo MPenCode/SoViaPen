@@ -1,11 +1,12 @@
 @import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 nav {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,34 +46,35 @@ nav {
 }
 .nav-right a:hover {
   background-color: aliceblue;
+
 }
 
 .hero {
-  background-color: lightgray;
-  display: flex;
-  border: 2px solid blueviolet;
+    background-color: lightgray;
+    display: flex;
+    border: 2px solid blueviolet;
 }
 
 .hero-box1 {
-  margin: 2rem 4rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem;
-  border: 2px solid aqua;
-  background-color: darkgray;
+    margin: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    border: 2px solid aqua;
+    background-color: darkgray;
 }
 .hero-box2 {
-  margin: 2rem 3rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 5rem;
-  border: 2px solid aqua;
-  background-color: darkgray;
-  border-radius: 30px;
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    border: 2px solid aqua;
+    background-color: darkgray;
+    border-radius: 30px;
 }
 
 .trusted {
@@ -92,6 +94,7 @@ nav {
     height: auto;
     width: auto;
 }
+
 
 .footer {
   padding: 40px 20px;
@@ -161,35 +164,36 @@ nav {
 .footer-bottom {
   margin-top: 30px;
   font-size: 0.9em;
+
 }
 
 .video-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 60px 20px;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
 }
 
 
 .video-container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .video-container h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 video {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .dishes-section {
@@ -272,3 +276,36 @@ video {
     max-width: 5rem;
     max-height: 5rem;
 }
+
+.app-feature-section1 {
+    padding-left: 5rem;
+    
+}
+.img-feature {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    
+}
+
+.app-feature-list {
+    display: flex;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    j
+}
+
+.app-feature-list > li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-head {
+  
+ padding-left: 8rem;
+   /* align-items: center;
+   flex-direction: column; */
+}
+
