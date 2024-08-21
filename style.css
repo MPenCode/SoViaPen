@@ -24,3 +24,20 @@ nav {
 .nav-right a {
     list-style: none;
 }
+.trusted {
+    text-align: center;
+    padding: 1rem;
+}
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 01rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: solid pink;
+}
+.companies-logo {
+    height: auto;
+    width: auto;
+}
