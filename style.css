@@ -54,7 +54,7 @@ nav {
 }
 /* hero styling */
 .hero {
-    background-color: #8e8d8a;
+    background-color: #d8c3a5;
     display: flex;
     border: 2px solid blueviolet;
 }
@@ -67,7 +67,7 @@ nav {
     align-items: center;
     padding: 3rem;
     border: 2px solid none;
-    background-color: #d8c3a5;
+    background-color: #eae7dc;
 }
 .hero-box2 {
     margin: 2rem 3rem;
@@ -77,7 +77,7 @@ nav {
     align-items: center;
     padding: 5rem;
     border: 2px solid none;
-    background-color: #d8c3a5;
+    background-color: #eae7dc;
     border-radius: 30px;
 }
 
@@ -259,6 +259,7 @@ video {
 .dishes-section {
     text-align: center;
     padding: 60px 20px;
+    background-color: #d8c3a5;
 }
 .dishes-section h2 {
     font-size: 2.5em;
@@ -274,6 +275,7 @@ video {
     gap: 5px;
     flex-wrap: nowrap;
     padding-bottom: 10px;
+    background-color: #eae7dc;
 }
 .dish-item {
     border-radius: 10px;
@@ -305,6 +307,7 @@ video {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #e85a4f;
 }
 .dish-item button:hover {
     background-color: #0056b3;
@@ -320,14 +323,14 @@ footer a {
     color: black;
 }
 
-/* app features  styling but  the name will change*/
 .features {
     display: flex;
     justify-content: space-around;
 }
-
+/* app features  styling but  the name will change*/
 .app-feature-section1 {
     padding-left: 5rem;
+    background-color: #e98074;
 }
 .img-feature {
     border-radius: 50%;
