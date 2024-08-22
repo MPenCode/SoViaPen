@@ -479,7 +479,7 @@ footer a {
 /* changed name of app features */
 .trust-ingredients-section {
     display: flex;
-    background-color: #e98074;
+    background-color: #fff;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
