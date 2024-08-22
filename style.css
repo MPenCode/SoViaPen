@@ -333,9 +333,10 @@ video {
     background-color: #d8c3a5;
 }
 .gal-head {
-    border: solid brown;
+    border: solid black;
     text-align: center;
     padding: 1rem 2rem;
+    border-radius: 2px;
 }
 .gallery {
     display: grid;
@@ -348,7 +349,9 @@ video {
 .gallery-part {
     padding: 1.3rem;
     margin: 0.5rem;
-    border: solid green;
+    border: solid black;
+    border-radius: 10px;
+    /* font-size: 2vh; */
 }
 .gallery-pic {
     border-radius: 50%;
@@ -437,6 +440,11 @@ video {
     .dish-item img {
         max-height: 150px;
     }
+    .gallery {
+        grid-template-columns: 1fr 1fr;     
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -455,6 +463,11 @@ video {
     .dish-item button {
         font-size: 0.9em;
         padding: 6px 12px;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
 /* footer styling */
