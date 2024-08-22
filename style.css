@@ -193,21 +193,21 @@ across the page */
 }
 /* companies styling */
 
-.trusted {
+.rated {
     text-align: center;
     padding: 1rem;
 }
-.companies {
+.platforms {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 2rem 01rem;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-right: 5rem;
-    border: solid pink;
+    /* border: solid pink; */
 }
-.companies-logo {
-    height: auto;
+.platform-logos {
+    height: 50px;
     width: auto;
 }
 /* footer styling */
