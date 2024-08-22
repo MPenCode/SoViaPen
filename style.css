@@ -55,8 +55,9 @@ nav {
 }
 
 .nav-left:hover,
-.nav-right li:hover {
+.nav-right:hover {
     background-color: #e98074;
+    transform: scale(1.1);
 }
 
 .nav-right li {
@@ -135,6 +136,7 @@ across the page */
 .hero-box1 > button:hover,
 .hero-box2 > button:hover {
     background-color: #e98074;
+    transform: scale(1.1);
 }
 
 .hero-box1 > button {
