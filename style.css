@@ -1,4 +1,5 @@
 @import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400&display=swap');
 
 /* Main Styling */
 * {
@@ -17,7 +18,7 @@ nav {
     padding: 1rem 2rem;
 
     font-size: 1rem;
-    background-color: #e98074;
+    background-color: #222222;
 }
 .nav-left {
     /* border: solid green;
@@ -28,7 +29,7 @@ nav {
     border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
-    font-family: monospace;
+    font-family: 'Playfair Display', serif;
     color: #eae7dc;
     /* padding: 20px; */
     text-align: center;
@@ -38,7 +39,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     border: none solid;
-    background-color: #d8c3a5;
+    background-color: #6c4f4f;
 }
 
 .nav-right {
@@ -49,18 +50,20 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 
-    background-color: #d8c3a5;
+    background-color: #f5f5f5;
 }
 
 .button-nav {
-    color: #eae7dc;
+    color: #222222;
     text-decoration: none;
     padding: 0.5rem 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 .nav-left:hover,
 .nav-right li:hover {
-    background-color: #e98074;
+    background-color: #8a6d6d;
 }
 /* .nav-right {
     display: flex;
@@ -144,12 +147,13 @@ across the page */
 
 .hero-box1 > button,
 .hero-box2 > button {
-    background-color: #e85a4f;
-    border: 2px solid;
+    background-color: #444444;
+    color: #eae7dc;
+    border: 2px solid #eae7dc;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 14px;
-    font-family: monospace;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
     color: #eae7dc;
     /* padding: 20px; */
     text-align: center;
@@ -158,7 +162,9 @@ across the page */
 
 .hero-box1 > button:hover,
 .hero-box2 > button:hover {
-    background-color: #e98074;
+    background-color: #eae7dc;
+    color: #444444;
+    border-color: #444444;
 }
 
 .hero-box1 > button {
@@ -499,3 +505,137 @@ footer a {
 #E98074
 #E85A4F
 */
+
+/* Color design */
+
+body {
+  font-family: 'Lora', serif;
+  color: #333333;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+  padding: 20px 0;
+}
+
+.nav {
+  background-color: #333333;
+}
+
+.nav-right {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-right li {
+  border: 2px solid #eae7dc;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+.nav-right li:hover {
+  background-color: #eae7dc;
+  color: #222222;
+}
+
+.nav-left a,
+.nav-right a {
+  color: #222222;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+
+
+.nav-right a:hover {
+  color: #d4af37;
+}
+
+.hero {
+  background-color: #f5f5f5;
+}
+
+.title-hero-box1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: #000000;
+}
+
+.content-hero-box1 {
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  color: #000000;
+}
+
+button {
+  background-color: #444444;
+  color: #eae7dc;
+  border: 2px solid #eae7dc;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d4af37;
+}
+
+.gallery-part h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.dish-item {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.dish-item img {
+  max-width: 100%;
+}
+
+.dish-item h3 {
+  font-family: 'Playfair Display', serif;
+  color: #000000;
+}
+
+.dish-item p {
+  color: #000000;
+}
+
+.footer {
+  background-color: #333333;
+  color: #f5f5f5;
+  padding: 20px;
+}
+
+.footer-brand p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  color: #f5f5f5;
+}
+
+.footer-features a,
+.footer-links a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
+.footer-features a:hover,
+.footer-links a:hover {
+  color: #d4af37;
+}
+
+.footer-bottom p {
+  color: #f5f5f5;
+}
