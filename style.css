@@ -1,5 +1,5 @@
 @import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400&display=swap");
 
 /* Main Styling */
 * {
@@ -25,7 +25,7 @@ nav {
     border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: #eae7dc;
     /* padding: 20px; */
     text-align: center;
@@ -54,7 +54,7 @@ nav {
     color: #222222;
     text-decoration: none;
     padding: 0.5rem 2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: bold;
 }
 
@@ -97,7 +97,7 @@ nav {
 /* .nav-right a:hover {
     background-color: aliceblue;
 } */
- /* logo styling */
+/* logo styling */
 .logo {
     background-image: url("https://images.pexels.com/photos/270815/pexels-photo-270815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
@@ -111,7 +111,6 @@ nav {
 .logo-frame img {
     max-width: 100%;
     max-height: 100%;
-
 }
 /* hero styling */
 .hero {
@@ -164,7 +163,7 @@ across the page */
     border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: #eae7dc;
     /* padding: 20px; */
     text-align: center;
@@ -173,7 +172,6 @@ across the page */
 
 .hero-box1 > button:hover,
 .hero-box2 > button:hover {
-
     background-color: #eae7dc;
     color: #444444;
     border-color: #444444;
@@ -193,21 +191,21 @@ across the page */
 }
 /* companies styling */
 
-.trusted {
+.rated {
     text-align: center;
     padding: 1rem;
 }
-.companies {
+.platforms {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 2rem 01rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    border: solid pink;
+    /* border: solid pink; */
 }
-.companies-logo {
-    height: auto;
+.platform-logos {
+    height: 50px;
     width: auto;
 }
 /* footer styling */
@@ -524,133 +522,131 @@ footer a {
 /* Color design */
 
 body {
-  font-family: 'Lora', serif;
-  color: #333333;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
+    font-family: "Lora", serif;
+    color: #333333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #333333;
-  padding: 20px 0;
+    background-color: #333333;
+    padding: 20px 0;
 }
 
 .nav {
-  background-color: #333333;
+    background-color: #333333;
 }
 
 .nav-right {
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-right li {
-  border: 2px solid #eae7dc;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: 'Playfair Display', serif;
-  color: #222222;
-  background-color: #ffffff;
+    border: 2px solid #eae7dc;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #222222;
+    background-color: #ffffff;
 }
 
 .nav-right li:hover {
-  background-color: #eae7dc;
-  color: #222222;
+    background-color: #eae7dc;
+    color: #222222;
 }
 
 .nav-left a,
 .nav-right a {
-  color: #222222;
-  text-decoration: none;
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
+    color: #222222;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
 }
 
-
-
 .nav-right a:hover {
-  color: #d4af37;
+    color: #d4af37;
 }
 
 .hero {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .title-hero-box1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5em;
-  color: #000000;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5em;
+    color: #000000;
 }
 
 .content-hero-box1 {
-  font-family: 'Lora', serif;
-  font-size: 1.2em;
-  color: #000000;
+    font-family: "Lora", serif;
+    font-size: 1.2em;
+    color: #000000;
 }
 
 button {
-  background-color: #444444;
-  color: #eae7dc;
-  border: 2px solid #eae7dc;
-  font-family: 'Playfair Display', serif;
-  font-size: 1em;
-  cursor: pointer;
+    background-color: #444444;
+    color: #eae7dc;
+    border: 2px solid #eae7dc;
+    font-family: "Playfair Display", serif;
+    font-size: 1em;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #d4af37;
+    background-color: #d4af37;
 }
 
 .gallery-part h4 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5em;
-  color: #000000;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    color: #000000;
 }
 
 .dish-item {
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
 }
 
 .dish-item img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .dish-item h3 {
-  font-family: 'Playfair Display', serif;
-  color: #000000;
+    font-family: "Playfair Display", serif;
+    color: #000000;
 }
 
 .dish-item p {
-  color: #000000;
+    color: #000000;
 }
 
 .footer {
-  background-color: #333333;
-  color: #f5f5f5;
-  padding: 20px;
+    background-color: #333333;
+    color: #f5f5f5;
+    padding: 20px;
 }
 
 .footer-brand p {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5em;
-  color: #f5f5f5;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    color: #f5f5f5;
 }
 
 .footer-features a,
 .footer-links a {
-  color: #f5f5f5;
-  text-decoration: none;
-  font-family: 'Lora', serif;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: "Lora", serif;
 }
 
 .footer-features a:hover,
 .footer-links a:hover {
-  color: #d4af37;
+    color: #d4af37;
 }
 
 .footer-bottom p {
-  color: #f5f5f5;
+    color: #f5f5f5;
 }
