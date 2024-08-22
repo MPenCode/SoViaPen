@@ -95,7 +95,22 @@ nav {
     color: black;
     padding: 0.5rem; */
 }
+/* logo styling */
+.logo {
+    background-image: url("https://images.pexels.com/photos/270815/pexels-photo-270815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.logo-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0rem 15% 0rem 15%;
+}
+.logo-frame img {
+    max-width: 100%;
+    max-height: 100%;
 
+}
 /* .nav-right a:hover {
     background-color: aliceblue;
 } */
